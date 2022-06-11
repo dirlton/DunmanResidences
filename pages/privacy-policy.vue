@@ -11,7 +11,7 @@
           <div>
             <p>
               This is the privacy policy (“Privacy Policy”) for the Web site
-              available at theliliumofficial.com.sg (the “Site”). This Privacy
+              available at thedunmanresidences.sg (the “Site”). This Privacy
               Policy sets forth our policies regarding the collection, use and
               disclosure of certain information relating to your use of the
               Site. Your use of this Site signifies your understanding and
@@ -64,19 +64,19 @@
             products and services, we may send e-mails and announcements
             regularly to your personal mobile number or email address that you
             provided to us. Users with malicious intention such as but not
-            limited to; providing “theliliumofficial.com.sg” false and inaccurate
+            limited to; providing “thedunmanresidences.sg” false and inaccurate
             information of particulars not belonging to themselves will be
             referred (with hardware and IP address) to the relevant authority
             for cyber harassment.
           </p>
           <p>
             Contacting Us: We welcome individuals with questions or problem
-            related to use of the “https://www.theliliumofficial.com.sg” to contact
+            related to use of the “https://www.thedunmanresidences.sg” to contact
             us at our provided contact form on our website.
           </p>
           <h4>THIRD-PARTY INFORMATION</h4>
           <p>
-            Links: <br />
+            Links: <br>
             When using our Website, you may click through certain links. We are
             not, however, responsible for any other website, or their respective
             privacy policy or how they treat information about their users. We
@@ -85,7 +85,7 @@
             MAY SHARE YOUR INFORMATION
           </p>
           <p>
-            Vendors: <br />
+            Vendors: <br>
             We may share your personal information with individuals acting as
             our authorised agents in providing our service (e.g., mortgage loan,
             conveyancing services) should you require it, all of which agree to
@@ -96,7 +96,7 @@
             use, modification or disclosure.
           </p>
           <p>
-            Legally compelled disclosure: <br />
+            Legally compelled disclosure: <br>
             We will also disclose your personal information when required to do
             so by law, for example, in response to a court order or a subpoena
             or other legal obligation, in response to a law enforcement agency’s
@@ -107,7 +107,7 @@
             unintentionally) our rights or property.
           </p>
           <p>
-            Your Acceptance of this Privacy Policy: <br />
+            Your Acceptance of this Privacy Policy: <br>
             By using this Site, you signify your acceptance of our Privacy
             Policy. If you do not agree to this Privacy Policy, please do not
             use our Site. We reserve the right, at our discretion, to change,
