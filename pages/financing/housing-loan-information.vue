@@ -101,42 +101,42 @@
                     <tbody class="bg-white divide-y divide-gray-200">
                       <tr class="divide-x divide-gray-200">
                         <td class="px-3 py-2">Loan Tenure</td>
-                        <td colspan="2" class="px-3 py-2">Up to 30 years</td>
-                        <td colspan="1" class="px-3 py-2">31-35 years</td>
-                        <td colspan="2" class="px-3 py-2">Up to 30 years</td>
-                        <td colspan="1" class="px-3 py-2">31-35 years</td>
-                        <td colspan="2" class="px-3 py-2">Up to 30 years</td>
-                        <td colspan="1" class="px-3 py-2">31-35 years</td>
+                        <td colspan="2" class="px-3 py-2 text-center">Up to 30 years</td>
+                        <td colspan="1" class="px-3 py-2 text-center">31-35 years</td>
+                        <td colspan="2" class="px-3 py-2 text-center">Up to 30 years</td>
+                        <td colspan="1" class="px-3 py-2 text-center">31-35 years</td>
+                        <td colspan="2" class="px-3 py-2 text-center">Up to 30 years</td>
+                        <td colspan="1" class="px-3 py-2 text-center">31-35 years</td>
                       </tr>
                       <tr class="divide-x divide-gray-200">
                         <td rowspan="2" class="px-3 py-2">Age</td>
-                        <td colspan="9" class="px-3 py-2">
+                        <td colspan="9" class="px-3 py-2 text-center">
                           Age used to calculate loan tenure, will be based on
                           income-weighted
                         </td>
                       </tr>
                       <tr class="divide-x divide-gray-200">
-                        <td colspan="1" class="px-3 py-2">Up to 65</td>
-                        <td colspan="1" class="px-3 py-2">Up to 70-75</td>
-                        <td colspan="1" class="px-3 py-2">Up to 70-75</td>
-                        <td colspan="1" class="px-3 py-2">Up to 65</td>
-                        <td colspan="1" class="px-3 py-2">Up to 70-75</td>
-                        <td colspan="1" class="px-3 py-2">Up to 70-75</td>
-                        <td colspan="1" class="px-3 py-2">Up to 65</td>
-                        <td colspan="1" class="px-3 py-2">Up to 70-75</td>
-                        <td colspan="1" class="px-3 py-2">Up to 70-75</td>
+                        <td colspan="1" class="px-3 py-2 text-center truncate">Up to 65</td>
+                        <td colspan="1" class="px-3 py-2 text-center truncate">Up to 70-75</td>
+                        <td colspan="1" class="px-3 py-2 text-center truncate">Up to 70-75</td>
+                        <td colspan="1" class="px-3 py-2 text-center truncate">Up to 65</td>
+                        <td colspan="1" class="px-3 py-2 text-center truncate">Up to 70-75</td>
+                        <td colspan="1" class="px-3 py-2 text-center truncate">Up to 70-75</td>
+                        <td colspan="1" class="px-3 py-2 text-center truncate">Up to 65</td>
+                        <td colspan="1" class="px-3 py-2 text-center truncate">Up to 70-75</td>
+                        <td colspan="1" class="px-3 py-2 text-center truncate">Up to 70-75</td>
                       </tr>
                       <tr class="divide-x divide-gray-200">
                         <td rowspan="2" class="px-3 py-2">Maximum LTV Limit</td>
-                        <td class="px-3 py-2">75%</td>
-                        <td class="px-3 py-2">55%</td>
-                        <td class="px-3 py-2">55%</td>
-                        <td class="px-3 py-2">45%</td>
-                        <td class="px-3 py-2">25%</td>
-                        <td class="px-3 py-2">25%</td>
-                        <td class="px-3 py-2">35%</td>
-                        <td class="px-3 py-2">15%</td>
-                        <td class="px-3 py-2">15%</td>
+                        <td class="px-3 py-2 text-center">75%</td>
+                        <td class="px-3 py-2 text-center">55%</td>
+                        <td class="px-3 py-2 text-center">55%</td>
+                        <td class="px-3 py-2 text-center">45%</td>
+                        <td class="px-3 py-2 text-center">25%</td>
+                        <td class="px-3 py-2 text-center">25%</td>
+                        <td class="px-3 py-2 text-center">35%</td>
+                        <td class="px-3 py-2 text-center">15%</td>
+                        <td class="px-3 py-2 text-center">15%</td>
                       </tr>
                       <tr class="divide-x divide-gray-200">
                         <td colspan="9" class="px-3 py-2 text-center">
@@ -145,35 +145,35 @@
                       </tr>
                       <tr class="divide-x divide-gray-200">
                         <td class="px-3 py-2">Minimum Cash Downpayment</td>
-                        <td class="px-3 py-2">5%</td>
-                        <td class="px-3 py-2">10%</td>
-                        <td class="px-3 py-2">10%</td>
-                        <td class="px-3 py-2">25%</td>
-                        <td class="px-3 py-2">25%</td>
-                        <td class="px-3 py-2">25%</td>
-                        <td class="px-3 py-2">25%</td>
-                        <td class="px-3 py-2">25%</td>
-                        <td class="px-3 py-2">25%</td>
+                        <td class="px-3 py-2 text-center">5%</td>
+                        <td class="px-3 py-2 text-center">10%</td>
+                        <td class="px-3 py-2 text-center">10%</td>
+                        <td class="px-3 py-2 text-center">25%</td>
+                        <td class="px-3 py-2 text-center">25%</td>
+                        <td class="px-3 py-2 text-center">25%</td>
+                        <td class="px-3 py-2 text-center">25%</td>
+                        <td class="px-3 py-2 text-center">25%</td>
+                        <td class="px-3 py-2 text-center">25%</td>
                       </tr>
                       <tr class="divide-x divide-gray-200">
-                        <td class="px-3 py-2">Gaurantors / Co-borrowers</td>
+                        <td class="px-3 py-2 ">Gaurantors / Co-borrowers</td>
                         <td colspan="9" class="px-3 py-2 text-center">
-                          All Co-borrowers must be mortgagors.<br />
+                          All Co-borrowers must be mortgagors.<br>
                           Guarantors must be co-borrowers if the latter did not
                           pass the TDSR criteria
                         </td>
                       </tr>
                       <tr class="divide-x divide-gray-200">
                         <td class="px-3 py-2">Mortgage Servicing Ratio</td>
-                        <td colspan="9" class="px-3 py-2">N/A</td>
+                        <td colspan="9" class="px-3 py-2 text-center">N/A</td>
                       </tr>
                       <tr class="divide-x divide-gray-200">
                         <td class="px-3 py-2">Total Debt Servicing Ratio</td>
-                        <td colspan="9" class="px-3 py-2">60%</td>
+                        <td colspan="9" class="px-3 py-2 text-center">60%</td>
                       </tr>
                       <tr class="divide-x divide-gray-200">
                         <td class="px-3 py-2">Stress Test Interest Rate</td>
-                        <td colspan="9" class="px-3 py-2">3.5%</td>
+                        <td colspan="9" class="px-3 py-2 text-center">3.5%</td>
                       </tr>
                     </tbody>
                   </table>
@@ -218,6 +218,6 @@
         </section>
       </div>
     </section>
-    <BookAppointment />
+    </BookAppointment>
   </div>
 </template>

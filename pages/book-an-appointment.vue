@@ -11,7 +11,7 @@
           <p>
             It is important to only engage the Official Direct Developer Team to
             assist you on all matters related to the new launch condominium at
-            <b>The Lilium &amp; The Gazania</b>. There are several complex procedures and key factors
+            <b>The Dunman Residences</b>. There are several complex procedures and key factors
             to consider before committing to purchase a unit. Rest assured that
             all our representatives are certified, well-trained and committed to
             delivering and value-add.
@@ -24,7 +24,7 @@
             >. There is no commission required to be paid.
           </p>
           <p>
-            Viewing of <b>The Lilium &amp; The Gazania Showflat</b> is by appointment only. Register
+            Viewing of <b>The Dunman Residences Showflat</b> is by appointment only. Register
             for an appointment below. Our friendly appointed representative will
             get back to you as soon as we can.
           </p>
@@ -397,7 +397,7 @@ export default {
       interest: null,
       errors: '',
       success: false,
-      email_2:'sales@theliliumofficial.com.sg',
+      email_2:'sales@thedunmanresidences.sg',
       config: {
         wrap: true,
         altFormat: 'd/m/Y - l',
@@ -457,7 +457,7 @@ export default {
           Password: process.env.EMAIL_API,
           To: process.env.EMAIL_USER,
           From: this.email,
-          Subject: 'The Lilium & The Gazania - New Booking Submission' +' [' + this.name +']',
+          Subject: 'The Dunman Residences - New Booking Submission' +' [' + this.name +']',
           Body:
             '<h3>Dear Dave, </h3>' +
             '<h4>Below are the details for the New Booking Submission, do check it out: </h4>' +
@@ -469,7 +469,7 @@ export default {
             '<h4>Mobile: ' + this.mobile + '</h4>' +
             '<h4>Level Of Interest: ' + this.interest + '</h4>' +
             '<br><h4>Thanks, </h4>' + 
-            '<h4>The Lilium & The Gazania</h4>',
+            '<h4>The Dunman Residences</h4>',
         }).then(() => {
         /*  // will pass to the ddave@singhaiyi.com
           Email.send({
@@ -478,7 +478,7 @@ export default {
           Password: process.env.EMAIL_API,
           To: this.email_3,
           From: this.email_2,
-          Subject: 'The Lilium & The Gazania - New Booking Submission' +' [' + this.name +']',
+          Subject: 'The Dunman Residences - New Booking Submission' +' [' + this.name +']',
           Body:
             '<h3>Dear Dave, </h3>' +
             '<h4>Date: ' + this.date +  '</h4>' +
@@ -489,20 +489,21 @@ export default {
             '<h4>Mobile: ' + this.mobile +  '</h4>' +
             '<h4>Level Of Interest: ' + this.interest + '</h4>' +
             '<br><h4>Thanks, </h4>' + 
-            '<h4>The Lilium & The Gazania</h4>', 
+            '<h4>The Dunman Residences</h4>', 
         }) */
-        // will pass to the user using sales@theliliumofficial.com.sg
+        // will pass to the user using sales@thedunmanresidences.sg
+        // eslint-disable-next-line
           Email.send({
           Host: 'smtp.gmail.com',
           Username: process.env.EMAIL_USER,
           Password: process.env.EMAIL_API,
           To: this.email,
           From: this.email_2,
-          Subject: 'The Lilium & The Gazania - Receipt Acknowledgement for Appointment',
+          Subject: 'The Dunman Residences - Receipt Acknowledgement for Appointment',
           Body:
             '<h3><b>Dear ' + this.name + '</b><h3>' + 
             '<h4>Congratulations!</h4>'+ 
-            '<h4>You have successfully booked an appointment with the developer staff from SingHaiyi to view the showflat for The Lilium & The Gazania on '+
+            '<h4>You have successfully booked an appointment with the developer staff from SingHaiyi to view the showflat for The Dunman Residences on '+
             this.date + ' at ' + this.time + 
             '.</h4>' + 
             '<h4>Our developer staff will be in touch with you shortly to confirm on your appointment. </h4>'+ 
@@ -511,7 +512,7 @@ export default {
             '<h4>Should you have any queries, you may contact us by replying to this email, <a href="mailto:dave@singhaiyi.com"><b>dave@singhaiyi.com</b></a>, or calling us at <a href="tel:+6561003337"><b>+65 6100 3337</b></a>.</h4>' +  
             '<h4>Have a nice day ahead!</h3><br>' + 
             '<h4>Thanks,</h4>' + 
-            '<h4>The Lilium & The Gazania</h4>',
+            '<h4>The Dunman Residences</h4>',
         })
           this.success = true
           this.reset()
