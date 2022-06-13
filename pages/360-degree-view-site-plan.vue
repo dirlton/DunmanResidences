@@ -5,9 +5,9 @@
         Virtual Tours
       </div>
     </div>
-    <section>
+      <section>
       <div class="max-w-6xl px-4 py-12 mx-auto space-y-6">
-        <h3 class="text-xl font-semibold sm:text-2xl text-center">2 Bedroom</h3>
+     <!--   <h3 class="text-xl font-semibold sm:text-2xl text-center">2 Bedroom</h3>
         <iframe 
           width="1100" 
           height="600" 
@@ -50,7 +50,21 @@
           frameborder="0" 
           allowfullscreen>
           </iframe>
+          
           <h3 class="text-center sm:text-xl">Powered by Audax Virtuals</h3>
+          -->
+          <div>
+          <p class="max-w-2xl mx-auto text-center">
+            Our team will update the Virtual Tours once it is available. Stay tune!
+          </p>
+          <br><br>
+          <img
+          src="~assets/img/coming-soon.png"
+         alt="Coming Soon"
+          class="mx-auto"
+        />
+        </div>
+          
         <section class="py-6">
           <NuxtLink
             to="/floor-plan"
@@ -82,11 +96,12 @@
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
-              ></path></svg
-          ></NuxtLink>
+              ></path></svg>
+              </NuxtLink>
         </section>
       </div>
-    </section>
+        </section>
     <BookAppointment />
   </div>
+</template>
 </template>

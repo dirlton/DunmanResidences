@@ -7,12 +7,15 @@
     </div>
     <section>
       <div class="max-w-6xl px-4 py-12 mx-auto space-y-6">
+        <p class="max-w-2xl mx-auto text-center">
+            Our team will update the Official Video for The Dunman Residences once it is available. Stay tune!
+          </p>
             <iframe 
             loop="1"
             width="1000" 
             height="600" 
             class="mx-auto"
-            src="https://www.youtube.com/embed/cqnrYOkKyyA?autoplay=1&loop=1&muted=1"  
+            src="https://www.youtube.com/embed/fzupzRoQpLs?autoplay=1&loop=1&muted=1"  
             title="The Lilium Videos" 
             frameborder="0" 
             allow="accelerometer; 
@@ -23,7 +26,7 @@
             picture-in-picture" 
             allowfullscreen>
             </iframe>
-        <h3 class="text-center"> Source and Credit to The Lilium</h3>
+        <h3 class="text-center"> Source and Credit from <a target="_blank" class="transition text-theme-600 hover:text-theme-700" href="https://www.youtube.com/channel/UCqmKYYcer1iwJkKQgYeygDg">Sookim Lee Youtube Channel</a></h3>
         <section class="py-6">
           <NuxtLink
             to="/e-brochure"
@@ -55,8 +58,8 @@
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
-              ></path></svg
-          ></NuxtLink>
+              ></path></svg>
+              </NuxtLink>
         </section>
       </div>
     </section>

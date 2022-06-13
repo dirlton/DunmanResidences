@@ -20,9 +20,9 @@
         </div>
         <div class="max-w-6xl px-4 mx-auto prose text-justify">
           <p>
-            SingHaiyi Huajiang Amber is a 50/50 shared venture between Corporate Bridge, a wholly-owned subsidiary of SingHaiYi Group, 
-            and Huajiang Properties II, a company controlled by SingHaiYi Founders Gordon and Celine Tang, the company's controlling shareholders 
-            and directors.
+            <a target="blank" href="https://www.singhaiyi.com/home.html">SingHaiyi Group Ltd. Pte.</a> is a diversified real estate firm concentrating on property development, investment, and management services listed on the 
+            Mainboard of the Singapore Exchange (SGX). It is overseen by a board and management team with deep insights and strong relationships, allowing 
+            access to unique and uncommon investment possibilities, with strategic backing from its significant shareholders.
           </p> 
           <p> 
             SingHaiyi Group Ltd is well-known in Singapore, but it has also expanded its portfolio to include the United States, 
@@ -31,17 +31,16 @@
             trustworthy and trusted brand via business excellence and integrity. 
           </p>
           <p>
-            The Vales, one of SingHaiyi's projects, was named Best Executive Condo Development, Best Executive Architectural Design, 
-            Best Condo Interior Design, and Highly Recommended Executive Condo Landscape Architectural Design at the 8th annual PropertyGuru 
-            Asia Property Awards (Singapore). In addition, the City Suites, another SingHaiyi Group Ltd project, was granted the prestigious 
-            "CONQUAS STAR" by the Building Construction Authority in 2018.
+            SingHaiyi has established an excellent track record in Singapore property development, with well-designed and high-quality residential 
+            complexes such as The Vales and City Suites, both of which have received the Building and Construction Authority's "CONQUAS STAR" rating.
           </p>
           <p>
-            Mr Gordon Tang started the SingHaiyi Group in 1977, and it is a Singapore-based public firm. Property development, real estate 
-            investing, and property management services are the fundamental businesses of the company. 
-            The Group's Singapore properties are Parc Clematis, The Gazania, The Lilium, 9 Penang Road, City Suites, The Vales, CityLife@Tampines,
-            and Pasir Ris One. Future homeowners of The Lilium may expect high-quality finishes because of SingHaiYi's experience and reputation 
-            for developing high-quality residences.
+            At the recent 2018 PropertyGuru Asia Property Accolades (Singapore), The Vales took home three awards, including Best Executive Condo Development Award, 
+            Best Executive Condo Interior Design Award, and Best Executive Condo Architectural Design Award. This award is an endorsement of SingHaiyi's projects' design and quality.
+          </p>
+          <p>
+            It has a diversified portfolio of income-generating assets in the commercial and retail sectors, with geographical reach into the United States and Australia, a growing presence in Asia, 
+            and an established track record in residential and commercial property development in Singapore and the United States.
           </p>
         </div>
       </section>
@@ -119,11 +118,11 @@
         <div class="grid grid-cols-2 gap-4 sm:gap-6 sm:grid-cols-3">
           <div class="space-y-2 text-center break-words">
             <img
-              src="~assets/img/developer/track-record-4.png"
+              src="~assets/img/developer/track-record-4.jpg"
               alt="The Gazania"
               class="mx-auto rounded shadow"
             />
-            <p class="text-sm font-semibold sm:text-lg">Ripple Bay</p>
+            <p class="text-sm font-semibold sm:text-lg">The Gazania</p>
           </div>
           <div class="space-y-2 text-center break-words">
             <img
@@ -137,12 +136,12 @@
           </div>
           <div class="space-y-2 text-center break-words">
             <img
-              src="~assets/img/developer/track-record-6.png"
-              alt="Hallmark Residences"
+              src="~assets/img/developer/track-record-6 (2).png"
+              alt="The Lilium"
               class="mx-auto rounded shadow"
             />
             <p class="text-sm font-semibold sm:text-lg">
-              Hallmark Residences
+              The Lilium
             </p>
           </div>
         </div>

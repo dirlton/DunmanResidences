@@ -92,10 +92,10 @@
       <div class="max-w-6xl px-4 mx-auto">
         <div class="py-10 space-y-1 text-center text-white">
           <h3 class="text-xl font-semibold sm:text-2xl tracking-widest">
-            The Lilium &amp; The Gazania
+            The Dunman Residences
           </h3>
           <h4 class="text-xl font-medium">
-            Official Website By SingHaiyi Huajiang Pte. Ltd.
+            Official Website By SingHaiyi Group Pte. Ltd.
           </h4>
         </div>
       </div>
@@ -105,7 +105,7 @@
         <NuxtLink to="/floor-plan" class=""
           ><div class="max-w-sm mx-auto group">
             <img
-              src="~/assets/img/home/home-floor-plan.jpg"
+              src="~/assets/img/home/floor-plan-01.png"
               alt="Floor Plan"
               class="w-full rounded shadow"
             />
@@ -143,7 +143,7 @@
         <NuxtLink to="/book-an-appointment" class=""
           ><div class="max-w-sm mx-auto group">
             <img
-              src="~/assets/img/home/home-book-appointment-1.jpg"
+              src="~/assets/img/home/home-book-appointment.jpg"
               alt="Get Direct Discounts"
               class="w-full rounded shadow"
             />
@@ -227,6 +227,6 @@ export default {}
 
 <style scope>
 #main_banner {
-  background-image: url('~assets/img/home/The-Lilium-Perspective-3.jpg');
+  background-image: url('~assets/img/home/bannerDunman.png');
 }
 </style>

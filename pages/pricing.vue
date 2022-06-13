@@ -77,76 +77,89 @@
                           uppercase
                         "
                       >
-                        Price Min. ($)
-                      </th>
-                      <th
-                        scope="col"
-                        class="
-                          px-6
-                          py-3
-                          text-xs
-                          font-medium
-                          tracking-wider
-                          text-left text-gray-500
-                          uppercase
-                        "
-                      >
-                        Price Max. ($)
+                        Price ($)
                       </th>
                     </tr>
                   </thead>
                   <tbody class="bg-white divide-y divide-gray-200">
                     <tr class="hover:bg-brown-100">
-                      <td class="px-6 py-4 whitespace-nowrap">2 Bedroom</td>
-                      <td class="px-6 py-4 whitespace-nowrap">B1</td>
-                      <td class="px-6 py-4 whitespace-nowrap">699</td>
-                      <td class="px-6 py-4 whitespace-nowrap">$ 1,535,800</td>
-                      <td class="px-6 py-4 whitespace-nowrap">$ 1,595,800</td>
+                      <td class="px-6 py-4 whitespace-nowrap">1 Bedroom</td>
+                      <td class="px-6 py-4 whitespace-nowrap">A</td>
+                      <td class="px-6 py-4 whitespace-nowrap">549</td>
+                      <td class="px-6 py-4 whitespace-nowrap">TBA</td>
+                      
                     </tr>
                     <tr class="hover:bg-brown-100">
                       <td class="px-6 py-4 whitespace-nowrap">
-                        2 Bedroom + Study
+                        2 Bedroom
                       </td>
-                      <td class="px-6 py-4 whitespace-nowrap">B2,B3</td>
-                      <td class="px-6 py-4 whitespace-nowrap">710 - 742</td>
-                      <td class="px-6 py-4 whitespace-nowrap">$ 1,490,800</td>
-                      <td class="px-6 py-4 whitespace-nowrap">$ 1,721,800</td>
+                      <td class="px-6 py-4 whitespace-nowrap">B1</td>
+                      <td class="px-6 py-4 whitespace-nowrap">872</td>
+                      <td class="px-6 py-4 whitespace-nowrap">TBA</td>
+                      
+                    </tr>
+                    <tr class="hover:bg-brown-100">
+                      <td class="px-6 py-4 whitespace-nowrap">
+                        
+                      </td>
+                      <td class="px-6 py-4 whitespace-nowrap">B2</td>
+                      <td class="px-6 py-4 whitespace-nowrap">883</td>
+                      <td class="px-6 py-4 whitespace-nowrap">TBA</td>
+                      
+                    </tr>
+                    <tr class="hover:bg-brown-100">
+                      <td class="px-6 py-4 whitespace-nowrap">
+                        
+                      </td>
+                      <td class="px-6 py-4 whitespace-nowrap">B3</td>
+                      <td class="px-6 py-4 whitespace-nowrap">915</td>
+                      <td class="px-6 py-4 whitespace-nowrap">TBA</td>
+                      
                     </tr>
                     <tr class="hover:bg-brown-100">
                       <td class="px-6 py-4 whitespace-nowrap">
                         3 Bedroom
                       </td>
                       <td class="px-6 py-4 whitespace-nowrap">C1</td>
-                      <td class="px-6 py-4 whitespace-nowrap">1,087</td>
-                      <td class="px-6 py-4 whitespace-nowrap">$ 2,119,800</td>
-                      <td class="px-6 py-4 whitespace-nowrap">$ 2,203,800</td>
+                      <td class="px-6 py-4 whitespace-nowrap">1,173</td>
+                      <td class="px-6 py-4 whitespace-nowrap">TBA</td>
+                      
                     </tr>
                     <tr class="hover:bg-brown-100">
                       <td class="px-6 py-4 whitespace-nowrap">
-                      3 Bedroom Premium	
+                      
                       </td>
                       <td class="px-6 py-4 whitespace-nowrap">C2</td>
-                      <td class="px-6 py-4 whitespace-nowrap">1,227</td>
-                      <td class="px-6 py-4 whitespace-nowrap">$ 2,556,800</td>
-                      <td class="px-6 py-4 whitespace-nowrap">$ 2,609,800</td>
+                      <td class="px-6 py-4 whitespace-nowrap">1,184</td>
+                      <td class="px-6 py-4 whitespace-nowrap">TBA</td>
+                      
                     </tr>
                     <tr class="hover:bg-brown-100">
                       <td class="px-6 py-4 whitespace-nowrap">
-                      4 Bedroom	
+                      
                       </td>
-                      <td class="px-6 py-4 whitespace-nowrap">D1,D2</td>
-                      <td class="px-6 py-4 whitespace-nowrap">1,291 - 1,356</td>
-                      <td class="px-6 py-4 whitespace-nowrap">$ 2,478,800</td>
-                      <td class="px-6 py-4 whitespace-nowrap">$ 3,547,800</td>
+                      <td class="px-6 py-4 whitespace-nowrap">C3</td>
+                      <td class="px-6 py-4 whitespace-nowrap">1,281</td>
+                      <td class="px-6 py-4 whitespace-nowrap">TBA</td>
+                      
                     </tr>
                     <tr class="hover:bg-brown-100">
                       <td class="px-6 py-4 whitespace-nowrap">
-                      4 Bedroom + Study		
+                      4 Bedroom		
                       </td>
-                      <td class="px-6 py-4 whitespace-nowrap">PH1, PH2</td>
-                      <td class="px-6 py-4 whitespace-nowrap">1,915 - 1,969</td>
-                      <td class="px-6 py-4 whitespace-nowrap">$ 3,448,800</td>
-                      <td class="px-6 py-4 whitespace-nowrap">$ 3,819,800</td>
+                      <td class="px-6 py-4 whitespace-nowrap">D1</td>
+                      <td class="px-6 py-4 whitespace-nowrap">1,496</td>
+                      <td class="px-6 py-4 whitespace-nowrap">TBA</td>
+                      
+                    </tr>
+                    <tr class="hover:bg-brown-100">
+                      <td class="px-6 py-4 whitespace-nowrap">
+                     
+                      </td>
+                      <td class="px-6 py-4 whitespace-nowrap">D2</td>
+                      <td class="px-6 py-4 whitespace-nowrap">1,496</td>
+                      <td class="px-6 py-4 whitespace-nowrap">TBA</td>
+                      
                     </tr>
                   </tbody>
                 </table>
@@ -154,7 +167,7 @@
             </div>
           </div>
           <br>
-                  <h1 class="text-center">(Disclaimer: All price range of each unit type for The Lilium displayed here are updated in a periodic manner. 
+                  <h1 class="text-center">(Disclaimer: All price range of each unit type for The Dunman Residences displayed here are updated in a periodic manner. 
                   However, it is strictly for reference purposes only. Prices are subject to change from time to time without prior notice. 
                   This webpage cannot be held responsible for any inaccuracies, omissions and/or dispute.)</h1>
         </div>

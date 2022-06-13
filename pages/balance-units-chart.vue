@@ -10,7 +10,7 @@
         <div class="space-y-2 text-center">
           <p class="text-xl">
             <span class="font-medium text-theme-500">Last updated</span>:
-            01-03-2022
+            15-06-2022
           </p>
           <p class="max-w-2xl mx-auto">
             Disclaimer: The Balance Units Chart displayed here is for reference
@@ -18,8 +18,20 @@
             time without prior notice. This webpage cannot be held responsible
             for any inaccuracies, omissions and/or dispute.
           </p>
+          <br>
+          <p class="max-w-2xl mx-auto">
+            Our team will update the Balance Units Chart once it is available. Stay tune!
+          </p>
         </div>
+        <br>
         <div>
+          <img
+          src="~assets/img/coming-soon.png"
+          alt="Coming Soon"
+          class="mx-auto"
+        />
+        </div>
+      <!--  <div>
           <embed
             :src="`${url}`"
             type="application/pdf"
@@ -35,10 +47,10 @@
           >
             Click here to view larger chart
           </NuxtLink>
-        </div>
+        </div> -->
         <section class="py-6">
           <NuxtLink
-            to="/gazania/project-details"
+            to="/dunman/payar-lebar"
             class="
               inline-flex
               items-center
@@ -54,7 +66,7 @@
               bg-theme-700
             "
           >
-            Continue To The Gazania Project Details
+            Continue To The Paya Lebar Airbase
             <svg
               fill="none"
               xmlns="http://www.w3.org/2000/svg"

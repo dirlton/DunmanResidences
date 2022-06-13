@@ -11,98 +11,82 @@
           <div class="p-6 bg-white rounded-lg shadow-lg">
             <div class="grid grid-cols-1 gap-6 sm:grid-cols-2">
               <div>
-                <label class="block text-gray-500">Developer</label>
-                <p>Singhaiyi Huajiang Amber Pte. Ltd.</p>
+                <label class="block text-gray-500 font-bold">Project Name</label>
+                <p>Dunman Residences (Dunman Road New Condo)</p>
               </div>
               <div>
-                <label class="block text-gray-500">Location</label>
-                <p>How Sun Drive, Singapore</p>
+                <label class="block text-gray-500 font-bold">Developer</label>
+                <p>SingHaiyi Group Pte. Ltd.</p>
               </div>
               <div>
-                <label class="block text-gray-500">District</label>
-                <p>District 19</p>
+                <label class="block text-gray-500 font-bold">Location</label>
+                <p>Dunman Road</p>
               </div>
               <div>
-                <label class="block text-gray-500">Site Area</label>
-                <p>Approx. 5,104.30 sqm / 54,942 sqft</p>
+                <label class="block text-gray-500 font-bold">District</label>
+                <p>District 15</p>
               </div>
               <div>
-                <label class="block text-gray-500">Solicitor</label>
-                <p>Allen &amp; Gledhill LLP</p>
+                <label class="block text-gray-500 font-bold">Site Area</label>
+                <p>Approx. 23,234.3 sq m / 271,622 sq ft</p>
               </div>
               <div>
-                <label class="block text-gray-500">Project Account No.</label>
-                <p>OCBC Ltd. for Project Account No. 712-600139-001</p>
+                <label class="block text-gray-500 font-bold">Maximum Gross Floor Area</label>
+                <p>88,321 m²</p>
               </div>
               <div>
-                <label class="block text-gray-500">Architect</label>
-                <p>RSP Architects Planners &amp; Engineers Pte. Ltd.</p>
+                <label class="block text-gray-500 font-bold">Plot Ratio</label>
+                <p>3.5</p>
               </div>
               <div>
-                <label class="block text-gray-500">Main Contractor</label>
-                <p>China Construction Development Co. Pte. Ltd.</p>
+                <label class="block text-gray-500 font-bold">Architect</label>
+                <p>TBA</p>
               </div>
               <div>
-                <label class="block text-gray-500">M &amp; E Consultant</label>
-                <p>Alpha Consulting Engineers Pte. Ltd.</p>
+                <label class="block text-gray-500 font-bold">Main Contractor</label>
+                <p>TBA</p>
               </div>
               <div>
-                <label class="block text-gray-500">Landscape Consultant</label>
-                <p>COEN Design International Pte. Ltd.</p>
+                <label class="block text-gray-500 font-bold">M &amp; E Consultant</label>
+                <p>TBA</p>
               </div>
               <div>
-                <label class="block text-gray-500">Address</label>
-                <p>31, 33 How Sun Park, Singapore</p>
+                <label class="block text-gray-500 font-bold">Landscape Consultant</label>
+                <p>TBA</p>
               </div>
               <div>
-                <label class="block text-gray-500">No. of Storeys</label>
-                <p>2 Blocks of 5-Storey Residential Units</p>
+                <label class="block text-gray-500 font-bold">Tenure</label>
+                <p>99-Year Leasehold</p>
               </div>
               <div>
-                <label class="block text-gray-500">Tenure</label>
-                <p>Freehold</p>
-              </div>
-              <div>
-                <label class="block text-gray-500">No. of Lifts</label>
-                <p>2 Passenger Lifts for Each Block</p>
-              </div>
-              <div>
-                <label class="block text-gray-500">Bicycle Lots</label>
-                <p>20</p>
-              </div>
-              <div>
-                <label class="block text-gray-500">Motorcycle Lots</label>
-                <p>4</p>
-              </div>
-              <div>
-                <label class="block text-gray-500">Site Use</label>
+                <label class="block text-gray-500 font-bold">Site Use</label>
                 <p>Residential Flat Developement</p>
               </div>
               <div>
-                <label class="block text-gray-500">Total No. of Units</label>
-                <p>80 Residential Units</p>
+                <label class="block text-gray-500 font-bold">Total No. of Units</label>
+                <p>1,070 Residential Units (Estimated)</p>
               </div>
               <div>
-                <label class="block text-gray-500">No. of Car Park Lots</label>
-                <p>80 Parking Lots and 2 Accessible Lots</p>
+                <label class="block text-gray-500 font-bold">Development</label>
+                <p>1 Block of 20-Storey & 3 Blocks of 19-Storey Condominium</p>
               </div>
               <div>
-                <label class="block text-gray-500">Security</label>
-                <p>24 Hours Security Guard</p>
+                <label class="block text-gray-500 font-bold">Land Use</label>
+                <p>Residential (Non-Landed)</p>
               </div>
               <div>
-                <label class="block text-gray-500">Expected Date of TOP</label>
-                <p>31 December 2021</p>
+                <label class="block text-gray-500 font-bold">Expected Date of TOP</label>
+                <p>2025</p>
               </div>
               <div>
-                <label class="block text-gray-500">Expected Date of Legal Completion</label>
-                <p>31 December 2024</p>
+                <label class="block text-gray-500 font-bold">Expected Date of Legal Completion</label>
+                <p>TBA</p>
               </div>
               
             </div>
           </div>
           <div class="py-4 italic text-center text-gray-500">
-            (Project details for The Lilium may be subjected to change without prior notice)
+            (Project details for The Dunman Residences may be subjected to change without prior notice)
           </div>
           <section class="py-6">
             <NuxtLink

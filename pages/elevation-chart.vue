@@ -8,6 +8,17 @@
     <section>
       <div class="max-w-6xl px-4 py-12 mx-auto space-y-6">
         <div>
+          <p class="max-w-2xl mx-auto text-center">
+            Our team will update the Elevation Chart once it is available. Stay tune!
+          </p>
+          <br><br>
+          <img
+          src="~assets/img/coming-soon.png"
+         alt="Coming Soon"
+          class="mx-auto"
+        />
+        </div>
+      <!--  <div>
           <embed
             :src="`${url}`"
             type="application/pdf"
@@ -23,7 +34,7 @@
           >
             Click here to view larger chart
           </NuxtLink>
-        </div>
+        </div> -->
         <section class="py-6">
           <NuxtLink
             to="/balance-units-chart"
@@ -55,8 +66,8 @@
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
-              ></path></svg
-          ></NuxtLink>
+              ></path></svg>
+              </NuxtLink>
         </section>
       </div>
     </section>
