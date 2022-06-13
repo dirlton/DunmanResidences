@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "baseUrl": ".",
+    "jsx": "preserve",
     "paths": {
       "~/*": ["./*"],
       "@/*": ["./*"],
@@ -8,5 +9,8 @@
       "@@/*": ["./*"]
     }
   },
+  "include": [
+    "./src/**/*.ts"
+],
   "exclude": ["node_modules", ".nuxt", "dist"]
 }
