@@ -80,7 +80,7 @@
                     hover:bg-yellow-600 hover:text-white
                   "
                 >
-                  Get Developer Price
+                  Get VVIP Preview
                 </NuxtLink>
               </div>
             </div>

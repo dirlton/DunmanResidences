@@ -12,7 +12,7 @@
             />
             <p>
               Book An Appointment to view ShowFlat &amp; get VVIP Discounts
-              (Limited Time), Direct Developer Price, &amp; Hardcopy E-Brochure.
+              (Limited Time), Direct VVIP Preview, &amp; Hardcopy E-Brochure.
               Guaranteed with Best Price Possible.
             </p>
             <p>OR</p>

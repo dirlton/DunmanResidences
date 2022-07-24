@@ -29,8 +29,8 @@
                   <NuxtLink to="/book-an-appointment" class="!text-theme-600"
                     >Book an Appointment</NuxtLink
                   >
-                  to view The Dunman Residences and get Direct Developer
-                  Price + Discounts.
+                  to view The Dunman Residences and get Direct VVIP Preview
+                   Price + Discounts.
                 </li>
                 <li>
                   <strong>01-03-2022:</strong> Check our latest
@@ -222,7 +222,7 @@
               "
             >
               <h1 class="text-3xl font-bold text-white">
-                Book An Appointment To Get Direct Developer Price
+                Book An Appointment To Get Direct VVIP Preview
               </h1>
               <NuxtLink
                 to="/book-an-appointment"
@@ -254,31 +254,23 @@
                   to="/"
                   aria-current="page"
                   class="transition text-theme-600 hover:text-theme-700"
-                  >The Dunman Residences</NuxtLink> is a new condominium complex located at <NuxtLink
-                    to="/location-map"
-                    class="transition text-theme-600 hover:text-theme-700"
-                    >Dunman Road</NuxtLink> 
-              along Upper Paya Lebar Road, 
-              within the premium Bartley residential enclave. The Dunman Residences, a 99-year leasehold community with vast open areas, a comprehensive variety of services, and 1,040 residential apartments, 
-              offers an ecosystem for holistic living. The Dunman Residences apartment is conveniently positioned along Dunman Road in the prestigious District 15 neighborhood, only steps from the Dakota 
-              MRT station. At Dunman Residences, you'll experience a new level of luxury living with an unobstructed landed view, excellent connection, and a foodie's paradise just outside your door.
+                  >Dunman Residences</NuxtLink> brings to life a home amidst nature that offers seclusion, peace, and a lavish expanse in which to unwind in rich splendour. 
+                   The land lot offers quick access to the city centre and other areas of Singapore as Dakota MRT Station on the Circle Line is less than 100m away. This brand-new, 
+                  affluent facility in District 15 of Singapore will include plenty of green space in addition to opulent amenities, design-forward buildings, heart-stopping views, 
+                  and first-rate care facilities.
             </p>
             <p>
-              <NuxtLink
-                  to="/"
-                  aria-current="page"
-                  class="transition text-theme-600 hover:text-theme-700"
-                  >Dunman Residences</NuxtLink> is a home surrounded by nature that offers solitude, peace, and a beautiful expanse to rest in lavish splendor. The property piece is less than 100 meters from the Circle Line's 
-                  Dakota MRT Station, giving easy access to the city center and other regions of Singapore. This new luxury business in District 15, Singapore, will have exquisite amenities, design-conscious buildings, 
-                  swoon-worthy vistas, and top-notch care facilities, in addition to its extensive green areas.
+              Future residents will have immediate access to the Geylang Park Connector, which runs along the Geylang River and connects easily to the Marina Reservoir and 
+              Gardens by the Bay. We discover self-renewal, the simple pleasures of spending time with family and friends, and the appreciation of a setting that enables us 
+              to be who we truly are. Enjoy a fresh way of life.
             </p>
-            <p>
+                        <p>
               Home is where your story begins. Where you choose to live is equally as crucial as your lifestyle when you live there. Architecture in creating a home that stands the test of time 
               and draws inspiration from the gardens outside to create a life that’s well-lived inside.
               A home is more than just a roof over your head, and it holds a lifetime of memories. Growth and wellness are integrated to create an energized, holistic environment for you and your loved ones. 
               There is no better investment than in your family or yourself and no better place to put down your roots.
             </p>
-            <p>
+                        <p>
               Aspiring homeowners may now view and download <NuxtLink
                     to="/floor-plan"
                     class="transition text-theme-600 hover:text-theme-700"

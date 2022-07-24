@@ -152,7 +152,7 @@
                 v-model="name"
                 type="text"
                 required="required"
-                class="uppercase form-input"
+                class="form-input"
               />
               <!---->
             </div>
@@ -397,7 +397,7 @@ export default {
       interest: null,
       errors: '',
       success: false,
-      email_2:'sales@thedunmanresidences.sg',
+      email_2:'dave@singhaiyi.com',
       config: {
         wrap: true,
         altFormat: 'd/m/Y - l',
@@ -440,65 +440,21 @@ export default {
     send() {
       this.errors = []
 
-      if (this.mobile) {
+ /*     if (this.mobile) {
         const prefix = this.mobile.substring(0, 2)
         if (prefix !== '65' || this.mobile.length <= 7) {
           this.errors.push({
             mobile: 'The mobile field contains an invalid number.',
           })
         }
-      }
+      } */
 
       if (!this.errors.length) {
         // eslint-disable-next-line
-        Email.send({
-          Host: 'smtp.gmail.com',
-          Username: process.env.EMAIL_USER,
-          Password: process.env.EMAIL_API,
+       this.$axios
+        .post('https://thedunmanresidences.sg/send_mail.php', {
           To: process.env.EMAIL_USER,
           From: this.email,
-          Subject: 'The Dunman Residences - New Booking Submission' +' [' + this.name +']',
-          Body:
-            '<h3>Dear Dave, </h3>' +
-            '<h4>Below are the details for the New Booking Submission, do check it out: </h4>' +
-            '<h4>Date: ' + this.date + '</h4>' +
-            '<h4>Time: ' + this.time + '</h4>' +
-            '<h4>Bedroom Size: ' + this.bedroom + '</h4>' +
-            '<h4>Name: ' + this.name + '</h4>' +
-            '<h4>Email: ' + this.email + '</h4>' +
-            '<h4>Mobile: ' + this.mobile + '</h4>' +
-            '<h4>Level Of Interest: ' + this.interest + '</h4>' +
-            '<br><h4>Thanks, </h4>' + 
-            '<h4>The Dunman Residences</h4>',
-        }).then(() => {
-        /*  // will pass to the ddave@singhaiyi.com
-          Email.send({
-          Host: 'smtp.gmail.com',
-          Username: process.env.EMAIL_USER,
-          Password: process.env.EMAIL_API,
-          To: this.email_3,
-          From: this.email_2,
-          Subject: 'The Dunman Residences - New Booking Submission' +' [' + this.name +']',
-          Body:
-            '<h3>Dear Dave, </h3>' +
-            '<h4>Date: ' + this.date +  '</h4>' +
-            '<h4>Time: ' + this.time +  '</h4>' +
-            '<+>Bedroom Size: ' + this.bedroom + '</h4>' +
-            '<h4>Name: ' + this.name + '</h4>' +
-            '<h4>Email: ' + this.email +  '</h4>' +
-            '<h4>Mobile: ' + this.mobile +  '</h4>' +
-            '<h4>Level Of Interest: ' + this.interest + '</h4>' +
-            '<br><h4>Thanks, </h4>' + 
-            '<h4>The Dunman Residences</h4>', 
-        }) */
-        // will pass to the user using sales@thedunmanresidences.sg
-        // eslint-disable-next-line
-          Email.send({
-          Host: 'smtp.gmail.com',
-          Username: process.env.EMAIL_USER,
-          Password: process.env.EMAIL_API,
-          To: this.email,
-          From: this.email_2,
           Subject: 'The Dunman Residences - Receipt Acknowledgement for Appointment',
           Body:
             '<h3><b>Dear ' + this.name + '</b><h3>' + 
@@ -510,12 +466,33 @@ export default {
             '<h4>Meanwhile, please do not book another appointment elsewhere to avoid duplication and complication </h4>'+
             '<h4>In the event that you like to change your appointment, simply reply to this email, <a href="mailto:dave@singhaiyi.com"><b>dave@singhaiyi.com</b></a> with your new preffered appointment date and time.</h4>'+ 
             '<h4>Should you have any queries, you may contact us by replying to this email, <a href="mailto:dave@singhaiyi.com"><b>dave@singhaiyi.com</b></a>, or calling us at <a href="tel:+6561003337"><b>+65 6100 3337</b></a>.</h4>' +  
-            '<h4>Have a nice day ahead!</h3><br>' + 
+            '<h4>Have a nice day ahead!</h3>' + 
             '<h4>Thanks,</h4>' + 
             '<h4>The Dunman Residences</h4>',
+        }).then(() => {
+        this.$axios
+        .post('https://thedunmanresidences.sg/send_mail.php', {
+          To: process.env.EMAIL_USER,
+          From: this.email_2,
+          Subject: 'The Dunman Residences - New Booking Submission' +' [' + this.name +']',
+          Body:
+            '<h3>Dear Dave, </h3>' +
+            '<h4>Below are the details for the New Booking Submission, do check it out: </h4>' +
+            '<h4>Date: ' + this.date + '</h4>' +
+            '<h4>Time: ' + this.time + '</h4>' +
+            '<h4>Bedroom Size: ' + this.bedroom + '</h4>' +
+            '<h4>Name: ' + this.name + '</h4>' +
+            '<h4>Email: ' + this.email + '</h4>' +
+            '<h4>Mobile: ' + this.mobile + '</h4>' +
+            '<h4>Level Of Interest: ' + this.interest + '</h4>' +
+            '<h4>Thanks, </h4>' + 
+            '<h4>The Dunman Residences</h4>',
         })
+          console.log()
           this.success = true
           this.reset()
+        }).catch( () => {
+          
         })
       }
     },
