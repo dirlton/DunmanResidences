@@ -11,7 +11,7 @@
           <p>
             It is important to only engage the Official Direct Developer Team to
             assist you on all matters related to the new launch condominium at
-            <b>The Dunman Residences</b>. There are several complex procedures and key factors
+            <b>Dunman Residences</b>. There are several complex procedures and key factors
             to consider before committing to purchase a unit. Rest assured that
             all our representatives are certified, well-trained and committed to
             delivering and value-add.
@@ -24,7 +24,7 @@
             >. There is no commission required to be paid.
           </p>
           <p>
-            Viewing of <b>The Dunman Residences Showflat</b> is by appointment only. Register
+            Viewing of <b>Dunman Residences Showflat</b> is by appointment only. Register
             for an appointment below. Our friendly appointed representative will
             get back to you as soon as we can.
           </p>
@@ -455,40 +455,42 @@ export default {
         .post('https://thedunmanresidences.sg/send_mail.php', {
           To: process.env.EMAIL_USER,
           From: this.email,
-          Subject: 'The Dunman Residences - Receipt Acknowledgement for Appointment',
+          Subject: 'Dunman Residences - Receipt Acknowledgement for Appointment',
           Body:
             '<h3><b>Dear ' + this.name + '</b><h3>' + 
             '<h4>Congratulations!</h4>'+ 
-            '<h4>You have successfully booked an appointment with the developer staff from SingHaiyi to view the showflat for The Dunman Residences on '+
+            '<h4>We are pleased to inform you that your appointment to view the showflat for Dunman Residences on '+
             this.date + ' at ' + this.time + 
-            '.</h4>' + 
-            '<h4>Our developer staff will be in touch with you shortly to confirm on your appointment. </h4>'+ 
-            '<h4>Meanwhile, please do not book another appointment elsewhere to avoid duplication and complication </h4>'+
-            '<h4>In the event that you like to change your appointment, simply reply to this email, <a href="mailto:dave@singhaiyi.com"><b>dave@singhaiyi.com</b></a> with your new preffered appointment date and time.</h4>'+ 
+            ' with our developer staff from SingHaiyi has been confirmed. Congratulations on securing your appointment!</h4>' + 
+            '<h4>Our developer staff will be contacting you shortly to reconfirm the details of your appointment. </h4>'+ 
+            '<h4>We kindly ask that you refrain from scheduling any other appointments during the time you have reserved with us to avoid any potential scheduling conflicts.</h4>'+
+            '<h4>In the event that you need to reschedule your appointment, kindly inform us by replying to this email, <a href="mailto:dave@singhaiyi.com"><b>dave@singhaiyi.com</b></a> with your preferred appointment date and time.</h4>'+ 
             '<h4>Should you have any queries, you may contact us by replying to this email, <a href="mailto:dave@singhaiyi.com"><b>dave@singhaiyi.com</b></a>, or calling us at <a href="tel:+6561003337"><b>+65 6100 3337</b></a>.</h4>' +  
-            '<h4>Have a nice day ahead!</h3>' + 
-            '<h4>Thanks,</h4>' + 
-            '<h4>The Dunman Residences</h4>',
+            '<h4>We hope you have a pleasant day and look forward to welcoming you to Dunman Residences.</h3>' + 
+            '<h4>Best regards,</h4>' + 
+            '<h4>Dunman Residences</h4>',
         }).then(() => {
         this.$axios
         .post('https://thedunmanresidences.sg/send_mail.php', {
           To: process.env.EMAIL_USER,
           From: this.email_2,
-          Subject: 'The Dunman Residences - New Booking Submission' +' [' + this.name +']',
+          Subject: 'Dunman Residences - New Booking Submission' +' [' + this.name +']',
           Body:
             '<h3>Dear Dave, </h3>' +
             '<h4>Below are the details for the New Booking Submission, do check it out: </h4>' +
-            '<h4>Date: ' + this.date + '</h4>' +
-            '<h4>Time: ' + this.time + '</h4>' +
-            '<h4>Bedroom Size: ' + this.bedroom + '</h4>' +
-            '<h4>Name: ' + this.name + '</h4>' +
-            '<h4>Email: ' + this.email + '</h4>' +
-            '<h4>Mobile: ' + this.mobile + '</h4>' +
-            '<h4>Level Of Interest: ' + this.interest + '</h4>' +
+            '<ul>'+
+            '<li> <strong> Date: ' + this.date + '</strong></li>' +
+            '<li> <strong> Time: ' + this.time + '</strong></li>' +
+            '<li> <strong> Bedroom Size: ' + this.bedroom + '</strong></li>' +
+            '<li> <strong> Name: ' + this.name + '</strong></li>' +
+            '<li> <strong> Email: ' + this.email + '</strong></li>' +
+            '<li> <strong> Mobile: ' + this.mobile + '</strong></li>' +
+            '<li> <strong> Level Of Interest: ' + this.interest + '</strong></li>' +
+            '</ul>'+
             '<h4>Thanks, </h4>' + 
-            '<h4>The Dunman Residences</h4>',
+            '<h4>Dunman Residences</h4>',
         })
-          console.log()
+          
           this.success = true
           this.reset()
         }).catch( () => {

@@ -9,7 +9,7 @@
       <div class="max-w-6xl px-4 py-12 mx-auto space-y-6">
         <img
           src="~assets/img/Location-Map-The-Dunman-Residences.jpeg"
-          alt="Location Plan for The Dunman Residences"
+          alt="Location Plan for Dunman Residences"
           class="mx-auto"
         />
 
@@ -23,7 +23,7 @@
           <h3 class="text-center sm:text-xl">Do <strong>"click"</strong> the above picture to view The Lilium Location Map</h3> -->
 
         <h3 class="text-xl font-semibold sm:text-2xl">
-          Amenities @ The Dunman Residences
+          Amenities @ Dunman Residences
         </h3>
         <div class="p-4 space-y-3 bg-white shadow-md">
           <h4 class="text-xl font-semibold tracking-wider text-theme-600">

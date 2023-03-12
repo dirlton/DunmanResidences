@@ -8,11 +8,11 @@
     <section>
       <div class="max-w-6xl px-4 py-12 mx-auto space-y-6">
         <p class="max-w-2xl mx-auto text-center">
-            Our team will update the Site Plan for The Dunman Residences once it is available. <br> Stay tune!
+            Our team will update the Site Plan for Dunman Residences once it is available. <br> Stay tune!
           </p>
         <img
           src="~assets/img/location-plan.jpg"
-          alt="SitePlan for The Dunman Residences"
+          alt="SitePlan for Dunman Residences"
           class="mx-auto"
         />
         <section class="py-6">
@@ -33,7 +33,7 @@
               bg-theme-700
             "
           >
-            Continue To The Dunman Residences Virtual Tours 
+            Continue To Dunman Residences Virtual Tours 
             <svg
               fill="none"
               xmlns="http://www.w3.org/2000/svg"

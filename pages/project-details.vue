@@ -86,7 +86,7 @@
             </div>
           </div>
           <div class="py-4 italic text-center text-gray-500">
-            (Project details for The Dunman Residences may be subjected to change without prior notice)
+            (Project details for Dunman Residences may be subjected to change without prior notice)
           </div>
           <section class="py-6">
             <NuxtLink

@@ -309,12 +309,28 @@
 
 <script>
 export default {
+  head: {
+    title:process.env.TITLE,
+    meta: [
+      { 
+        hid: 'description', 
+        name: 'description', 
+        content: 'Dunman Residences brings to life a home amidst nature that offers seclusion, peace, and a lavish expanse in which to unwind in rich splendour. The land lot offers quick access to the city centre and other areas of Singapore as Dakota MRT Station on the Circle Line is less than 100m away. This brand-new, affluent facility in District 15 of Singapore will include plenty of green space in addition to opulent amenities, design-forward buildings, heart-stopping views, and first-rate care facilities. The Dunman Road New Condo is close to the Datoka Circle Line Station (CC8) and is situated near Dunman Road in District 15 of Singapore. When fully developed, the new condo on Dunman Road will have 1,002 residential units available.'
+        },
+      {
+        hid: 'keywords', 
+        name: 'keywords', 
+        content: 'dunman residences, dunman, residences,dunman new launch, launch, new, latest dunman residences'
+        }
+    ],
+  },
   methods: {
     currentDate() {
       const current = new Date();
       const date = `${current.getDate()} - ${current.getMonth()+1} - ${current.getFullYear()}`;
       return date;
     }
-  }
+  },
 };
+
 </script>

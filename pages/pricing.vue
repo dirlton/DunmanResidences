@@ -167,7 +167,7 @@
             </div>
           </div>
           <br>
-                  <h1 class="text-center">(Disclaimer: All price range of each unit type for The Dunman Residences displayed here are updated in a periodic manner. 
+                  <h1 class="text-center">(Disclaimer: All price range of each unit type for Dunman Residences displayed here are updated in a periodic manner. 
                   However, it is strictly for reference purposes only. Prices are subject to change from time to time without prior notice. 
                   This webpage cannot be held responsible for any inaccuracies, omissions and/or dispute.)</h1>
         </div>

@@ -8,7 +8,7 @@
     <section>
       <div class="max-w-6xl px-4 py-12 mx-auto space-y-6">
         <p class="max-w-2xl mx-auto text-center">
-            Our team will update the Official Video for The Dunman Residences once it is available. Stay tune!
+            Our team will update the Official Video for Dunman Residences once it is available. Stay tune!
           </p>
             <iframe 
             loop="1"

@@ -92,7 +92,7 @@
       <div class="max-w-6xl px-4 mx-auto">
         <div class="py-10 space-y-1 text-center text-white">
           <h3 class="text-xl font-semibold sm:text-2xl tracking-widest">
-            The Dunman Residences
+            Dunman Residences
           </h3>
           <h4 class="text-xl font-medium">
             Official Website By SingHaiyi Group Pte. Ltd.

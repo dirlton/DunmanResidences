@@ -12,7 +12,7 @@
             />
           </div>
           <div class="space-y-2">
-            <h4 class="text-xl font-medium">The Dunman Residences</h4>
+            <h4 class="text-xl font-medium">Dunman Residences</h4>
             <ul class="space-y-3 text-gray-600">
               <li>Developer: SingHaiyi Group Pte. Ltd.</li>
               <li>Tenure of Land: 99-Year Leasehold</li>
@@ -28,11 +28,11 @@
                   to="/"
                   aria-current="page"
                   class="nuxt-link-exact-active nuxt-link-active"
-                  >The Dunman Residences</NuxtLink
+                  >Dunman Residences</NuxtLink
                 >
               </li>
-              <li><NuxtLink to="/floor-plan" class="">Floor Plan The Dunman Residences</NuxtLink></li>
-              <li><NuxtLink to="/pricing" class="">Pricing The Dunman Residences</NuxtLink></li>
+              <li><NuxtLink to="/floor-plan" class="">Floor Plan Dunman Residences</NuxtLink></li>
+              <li><NuxtLink to="/pricing" class="">Pricing Dunman Residences</NuxtLink></li>
  
               <li>
                 <NuxtLink to="/book-an-appointment" class=""
@@ -105,7 +105,7 @@
                   ></path>
                 </svg>
                 <a href="mailto:"
-                  >sales@thedunmanresidences.sg</a
+                  >sales@grand-dunman.com.sg</a
                 >
               </li>
             </ul>
@@ -124,8 +124,8 @@
                 divide-x divide-gray-500
               "
             >
-              <p class="px-1">Copyright © 2022</p>
-              <p class="px-1">The Dunman Residences</p>
+              <p class="px-1">Copyright © 2023</p>
+              <p class="px-1">Dunman Residences</p>
               <p class="px-1">SingHaiyi Group Pte. Ltd.</p>
               <p class="px-1"><a href="tel:+6561003337">+65 6100 3337</a></p>
               <NuxtLink to="/privacy-policy" class="px-1"
@@ -171,7 +171,7 @@
         <div class="head-home">
           <div class="info-avatar">
             <!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-          <svg version="1.1" baseProfile="tiny" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+          <svg version="1.1" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
 	 x="0px" y="0px" viewBox="0 0 250 100" overflow="visible" xml:space="preserve">
 <radialGradient id="SVGID_1_" cx="19.4274" cy="30.4143" r="16.1318" gradientUnits="userSpaceOnUse">
 	<stop  offset="0" style="stop-color:#F1A31E"/>
@@ -395,7 +395,7 @@
 
           </div>
           <p>
-            <span class="whatsapp-name">The Dunman Residences</span><br /><small
+            <span class="whatsapp-name">Dunman Residences</span><br /><small
               >Typically replies within a day</small
             >
           </p>
@@ -444,11 +444,10 @@
               class="WhatsappChat__Message-sc-1wqac52-4 kAZgZq"
             >
               <div class="WhatsappChat__Author-sc-1wqac52-3 bMIBDo">
-                The Dunman Residences
+                Dunman Residences
               </div>
               <div class="WhatsappChat__Text-sc-1wqac52-2 iSpIQi">
-                Thank you for your interest in The Dunman Residences👋<br /><br />What
-                question would you have for me?
+                Thank you for expressing your interest in Dunman Residences👋<br /><br />How may I assist you today?
               </div>
               <div class="WhatsappChat__Time-sc-1wqac52-5 cqCDVm">
                 {{ datetime }}

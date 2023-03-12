@@ -38,7 +38,7 @@
               bg-brown-700
             "
           >
-            Continue To The Dunman Residences Video
+            Continue To Dunman Residences Video
             <svg
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
