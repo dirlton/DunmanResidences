@@ -452,7 +452,7 @@ export default {
       if (!this.errors.length) {
         // eslint-disable-next-line
        this.$axios
-        .post('https://thedunmanresidences.sg/send_mail.php', {
+        .post('https://grand-dunman.com.sg/send_mail.php', {
           To: process.env.EMAIL_USER,
           From: this.email,
           Subject: 'Dunman Residences - Receipt Acknowledgement for Appointment',
@@ -471,7 +471,7 @@ export default {
             '<h4>Dunman Residences</h4>',
         }).then(() => {
         this.$axios
-        .post('https://thedunmanresidences.sg/send_mail.php', {
+        .post('https://grand-dunman.com.sg/send_mail.php', {
           To: process.env.EMAIL_USER,
           From: this.email_2,
           Subject: 'Dunman Residences - New Booking Submission' +' [' + this.name +']',

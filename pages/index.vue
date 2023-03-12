@@ -326,10 +326,11 @@ export default {
   },
   methods: {
     currentDate() {
-      const current = new Date();
-      const date = `${current.getDate()} - ${current.getMonth()+1} - ${current.getFullYear()}`;
-      return date;
-    }
+  const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+  const current = new Date();
+  const date = `${current.getDate()} ${months[current.getMonth()]} ${current.getFullYear()}`;
+  return date;
+}
   },
 };
 

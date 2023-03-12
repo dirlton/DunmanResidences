@@ -87,7 +87,7 @@
                     stroke-linejoin="round"
                   ></path>
                 </svg>
-                <a href="tel:+6561003337">+65 6100-3337</a>
+                <a href="tel:+6561003337">+65 6100 3337</a>
               </li>
               <li class="flex items-center space-x-2">
                 <svg
